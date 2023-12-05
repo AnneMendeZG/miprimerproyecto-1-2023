@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/estilo.css">
+        <link rel="stylesheet" href="css/contacto.css">
         <title>document</title>
     </head>
     <body>
@@ -26,32 +27,29 @@
         </div>
         <!--Aquí pondremos el cuerpo del index-->
         <div id="cuerpoContenido">
-            <div id="cuerpoImagen">
-                <div id="bordeImagen">
-                    <img src="/img/Recurso 1.png" head="400" width="480">
-                </div>
-            </div>
-            <div id="cuerpoDetalle">
-                <h1>bienvenido</h1>
-                <div id="datosDetalle">
-                    <p>¡Bienvenido a bordo! Nos alegra enormemente que hayas decidido unirte como nuestro nuevo cliente. Prepárate para disfrutar de una experiencia impecable que sentará las bases de una colaboración fructífera. Estamos ansiosos por comenzar esta emocionante travesía juntos.Gracias por elegirnos como tu aliado de confianza. Estamos encantados de servirte y hacer que tu proceso de incorporación sea eficiente, agradable y gratificante
-                    </p>
-                </div>
-                <div id="botones">
-                    <div id="botonFavorito">
-                        <div id="marcoFavorito" class="disenoBoton">
-                           mi persona favorita.
-                        </div>
-                    </div>
-                    <div id="botonUbicacion">
-                        <div id="marcoUbicacion" class="disenoBoton">
-                            mi ubicación favorita.
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div id="formularioDatos"></div>
+            <fieldset>
+                <legend>Mis datos</legend>
+                <form>
+                    <label>Nombre</label>
+                    <input type="text" placeholder="Ingresa su nombre">
+                    <label>Apellido</label>
+                    <input type="text" placeholder="Ingresa su Apellido">
+                    <label>Edad</label>
+                    <input type="text" placeholder="Ingresa su Edad">
+                    <select>
+                        <option value="cbba">Cochabamba</option>
+                        <option value="scz">Santa Cruz</option>
+                        <option value="bni">Beni</option>
+                        <option value="psi">Potosi</option>
+                        <option value="lpz">La Paz</option>
+                    </select>
+                </form>
+                <label>Descripción</label>
+                <textarea></textarea>
+                <input type="button" value="insertar">
+            </fieldset>
         </div>
-        <!--Aquí colocaremos el pie de la web-->
         <footer>
         <div id="marcoFooter">
             <div id="menuFooter">
